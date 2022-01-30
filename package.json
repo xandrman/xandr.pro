@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod": "npm run production",
+    "production": "export NODE_ENV=production && node_modules/webpack/bin/webpack.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,17 @@
   },
   "homepage": "https://github.com/xandrman/xandr.pro#readme",
   "devDependencies": {
-    "tailwindcss": "^3.0.18"
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.18",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
   },
   "dependencies": {
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss-loader": "^6.2.1",
+    "style-loader": "^3.3.1",
     "typeface-alata": "^1.1.13"
   }
 }
