@@ -1,0 +1,26 @@
+{
+  "name": "xandr.pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xandrman/xandr.pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xandrman/xandr.pro/issues"
+  },
+  "homepage": "https://github.com/xandrman/xandr.pro#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "typeface-alata": "^1.1.13"
+  }
+}
